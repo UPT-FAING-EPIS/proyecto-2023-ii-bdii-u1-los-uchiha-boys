@@ -1,0 +1,58 @@
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Cancelacion de pasajes.exe.config
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Cancelacion de pasajes.exe
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Cancelacion de pasajes.pdb
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.AssemblyReference.cache
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.SuggestedBindingRedirects.cache
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.Form1.resources
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.Properties.Resources.resources
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.GenerateResource.cache
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.CoreCompileInputs.cache
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.exe
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.pdb
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Guna.UI.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.CopyComplete
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\MySql.Data.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Google.Protobuf.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Zstandard.Net.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\BouncyCastle.Crypto.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Ubiety.Dns.Core.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\Renci.SshNet.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\System.Buffers.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\K4os.Compression.LZ4.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\K4os.Hash.xxHash.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\bin\Debug\MySql.Data.xml
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.Cancelacion.resources
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.buscar_clientes.resources
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.datos_clientes.resources
+D:\UPT\2023-II\Base de datos\Proyecto\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.reprogramacion.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.AssemblyReference.cache
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.SuggestedBindingRedirects.cache
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.buscar_clientes.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.Cancelacion.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.datos_clientes.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.Form1.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.Properties.Resources.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.reprogramacion.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.reprogramacion_seleccionar.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.GenerateResource.cache
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.CoreCompileInputs.cache
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.exe
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.pdb
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Cancelacion de pasajes.exe.config
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Cancelacion de pasajes.exe
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Cancelacion de pasajes.pdb
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\MySql.Data.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Google.Protobuf.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Zstandard.Net.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\BouncyCastle.Crypto.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Ubiety.Dns.Core.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\Renci.SshNet.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\System.Buffers.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\K4os.Compression.LZ4.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\K4os.Hash.xxHash.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\MySql.Data.xml
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.CopyComplete
