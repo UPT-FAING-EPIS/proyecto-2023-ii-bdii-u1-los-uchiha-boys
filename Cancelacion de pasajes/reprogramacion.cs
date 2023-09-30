@@ -140,7 +140,7 @@ namespace Cancelacion_de_pasajes
                         reprogramacion_seleccionarForm.idCliente456 = idCliente456;
 
 
-                        reprogramacion_seleccionarForm.Show();
+                        reprogramacion_seleccionarForm.ShowDialog();
                         tablaOriginal = null;
                         Close();
                     }

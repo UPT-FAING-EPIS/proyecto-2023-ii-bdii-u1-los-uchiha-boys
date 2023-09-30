@@ -90,7 +90,18 @@
     <Compile Include="reprogramacion_seleccionar.Designer.cs">
       <DependentUpon>reprogramacion_seleccionar.cs</DependentUpon>
     </Compile>
-    <Compile Include="transferencia.cs" />
+    <Compile Include="transferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transferencia.Designer.cs">
+      <DependentUpon>transferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transferencia_seleccionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transferencia_seleccionar.Designer.cs">
+      <DependentUpon>transferencia_seleccionar.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="buscar_clientes.resx">
       <DependentUpon>buscar_clientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +128,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="reprogramacion_seleccionar.resx">
       <DependentUpon>reprogramacion_seleccionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transferencia.resx">
+      <DependentUpon>transferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transferencia_seleccionar.resx">
+      <DependentUpon>transferencia_seleccionar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

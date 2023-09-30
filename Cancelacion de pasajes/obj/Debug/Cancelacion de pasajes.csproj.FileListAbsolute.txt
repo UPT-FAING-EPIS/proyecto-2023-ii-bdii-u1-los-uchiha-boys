@@ -56,3 +56,5 @@ D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys
 D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\bin\Debug\MySql.Data.xml
 D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion de pasajes.csproj.CopyComplete
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.transferencia.resources
+D:\UPT\2023-II\Base de datos\Proyecto\1\proyecto-2023-ii-bdii-u1-los-uchiha-boys-CrowProgrammer-patch-1\Cancelacion de pasajes\obj\Debug\Cancelacion_de_pasajes.transferencia_seleccionar.resources

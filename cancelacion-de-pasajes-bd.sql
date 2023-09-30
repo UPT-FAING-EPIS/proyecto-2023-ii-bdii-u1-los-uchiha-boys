@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-09-2023 a las 11:46:36
+-- Tiempo de generación: 30-09-2023 a las 10:50:09
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 8.1.10
 
@@ -63,9 +63,9 @@ CREATE TABLE `pasajes` (
 --
 
 INSERT INTO `pasajes` (`IDPasaje`, `IDCliente`, `IDViaje`, `FechaCompra`, `EstadoPasaje`) VALUES
-(1, 1, 1, '2023-09-25', 'cancelado'),
-(2, 1, 1, '2023-09-27', 'activo'),
-(3, 2, 1, '2023-09-29', 'activo');
+(1, 1, 1, '2023-09-25', 'activo'),
+(2, 1, 2, '2023-09-27', 'activo'),
+(3, 2, 3, '2023-09-29', 'activo');
 
 -- --------------------------------------------------------
 

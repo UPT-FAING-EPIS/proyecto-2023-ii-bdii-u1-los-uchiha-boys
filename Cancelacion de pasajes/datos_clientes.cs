@@ -80,7 +80,7 @@ namespace Cancelacion_de_pasajes
 
         private void btn_transferencia_Click(object sender, EventArgs e)
         {
-            reprogramacion TransferenciaForm = new reprogramacion(idCliente);
+            transferencia TransferenciaForm = new transferencia(idCliente);
             TransferenciaForm.ShowDialog();
         }
     }

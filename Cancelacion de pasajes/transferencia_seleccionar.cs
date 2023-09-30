@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,12 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
-
 
 namespace Cancelacion_de_pasajes
 {
-    public partial class reprogramacion_seleccionar : Form
+    public partial class transferencia_seleccionar : Form
     {
         private MySqlConnection conexion;
         private string cadenaConexion = "Server=localhost;Database=cancelacion-de-pasajes-bd;User=root;";
@@ -20,24 +19,24 @@ namespace Cancelacion_de_pasajes
         public int idCliente123 { get; set; }
         public int idCliente456 { get; set; }
 
-        public reprogramacion_seleccionar()
+        public transferencia_seleccionar()
         {
             InitializeComponent();
             conexion = new MySqlConnection(cadenaConexion);
         }
 
-        private void reprogramacion_seleccionar_Load(object sender, EventArgs e)
+        private void transferencia_seleccionar_Load(object sender, EventArgs e)
         {
-            CargarDatosViajes();
+            CargarDatosClientes();
         }
-        private void CargarDatosViajes()
+        private void CargarDatosClientes()
         {
             try
             {
                 conexion.Open();
 
                 // Consulta SQL para obtener los datos de la tabla Viajes
-                string consulta = "SELECT * FROM Viajes";
+                string consulta = "SELECT * FROM Clientes";
 
                 MySqlCommand comando = new MySqlCommand(consulta, conexion);
                 MySqlDataAdapter adaptador = new MySqlDataAdapter(comando);
@@ -49,7 +48,7 @@ namespace Cancelacion_de_pasajes
 
                 // Agregar una columna de botones "Seleccionar" al final del DataGridView
                 DataGridViewButtonColumn columnaSeleccionar = new DataGridViewButtonColumn();
-                columnaSeleccionar.Name = "SeleccionarViaje";
+                columnaSeleccionar.Name = "SeleccionarCliente";
                 columnaSeleccionar.Text = "Seleccionar";
                 columnaSeleccionar.UseColumnTextForButtonValue = true;
                 dgvViajes.Columns.Add(columnaSeleccionar);
@@ -66,13 +65,12 @@ namespace Cancelacion_de_pasajes
 
         private void dgvViajes_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0 && e.ColumnIndex == dgvViajes.Columns["SeleccionarViaje"].Index)
+            if (e.RowIndex >= 0 && e.ColumnIndex == dgvViajes.Columns["SeleccionarCliente"].Index)
             {
-                // Obtén el IDViaje de la fila seleccionada
-                if (dgvViajes.Rows[e.RowIndex].Cells["IDViaje"].Value != null)
+                // Obtén el IDCliente de la fila seleccionada en dgvViajes
+                if (dgvViajes.Rows[e.RowIndex].Cells["IDCliente"].Value != null)
                 {
-
-                    int idViajeSeleccionado = Convert.ToInt32(dgvViajes.Rows[e.RowIndex].Cells["IDViaje"].Value);
+                    int idClienteSeleccionado = Convert.ToInt32(dgvViajes.Rows[e.RowIndex].Cells["IDCliente"].Value);
 
                     try
                     {
@@ -80,22 +78,19 @@ namespace Cancelacion_de_pasajes
                         {
                             conexion.Open();
 
-                            // Valor de IDViaje deseado
-                            int nuevoIDViaje = idViajeSeleccionado; // Cambia esto al valor deseado
+                            // Valor de IDCliente deseado (el cliente seleccionado)
+                            int nuevoIDCliente = idClienteSeleccionado;
 
-                            // Criterio para relacionar los registros
-                            int idPasajeSeleccionado = idCliente456; // Cambia esto al valor de IDPasaje que deseas actualizar
+                            // IDPasaje que deseas actualizar (puedes obtenerlo de alguna manera)
+                            int idPasajeSeleccionado = ObtenerIDPasajeSeleccionado(); // Implementa esta función para obtener el IDPasaje
 
-                            // Consulta SQL de actualización para modificar IDViaje en Pasajes
-                            string consulta = "UPDATE Pasajes AS p " +
-                                              "INNER JOIN Viajes AS v ON p.IDViaje = v.IDViaje " +
-                                              "SET p.IDViaje = @NuevoIDViaje " +
-                                              "WHERE p.IDPasaje = @IDPasajeSeleccionado";
+                            // Consulta SQL de actualización para modificar IDCliente en Pasajes
+                            string consulta = "UPDATE Pasajes SET IDCliente = @NuevoIDCliente WHERE IDPasaje = @IDPasajeSeleccionado";
 
                             using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                             {
                                 // Establece los parámetros en la consulta
-                                comando.Parameters.AddWithValue("@NuevoIDViaje", nuevoIDViaje);
+                                comando.Parameters.AddWithValue("@NuevoIDCliente", nuevoIDCliente);
                                 comando.Parameters.AddWithValue("@IDPasajeSeleccionado", idPasajeSeleccionado);
 
                                 // Ejecuta la consulta de actualización
@@ -103,7 +98,7 @@ namespace Cancelacion_de_pasajes
 
                                 if (filasActualizadas > 0)
                                 {
-                                    Console.WriteLine("Se ha actualizado el IDViaje en la tabla Pasajes.");
+                                    Console.WriteLine("Se ha actualizado el IDCliente en la tabla Pasajes.");
                                 }
                                 else
                                 {
@@ -116,12 +111,26 @@ namespace Cancelacion_de_pasajes
                     {
                         Console.WriteLine("Error al actualizar la tabla Pasajes: " + ex.Message);
                     }
-                    reprogramacion reprogramacion = new reprogramacion(idCliente123);
-                    reprogramacion.idViajeSeleccionado = idViajeSeleccionado;
-                    reprogramacion.ShowDialog();
-                    Close();
+
+                    // Cierra el formulario actual
+                    this.Close();
                 }
             }
+        }
+        private int ObtenerIDPasajeSeleccionado()
+        {
+            if (dgvViajes.SelectedRows.Count > 0)
+            {
+                // Por ejemplo, asumamos que el IDPasaje está en la columna "IDPasaje"
+                if (dgvViajes.SelectedRows[0].Cells["IDPasaje"].Value != null)
+                {
+                    return Convert.ToInt32(dgvViajes.SelectedRows[0].Cells["IDPasaje"].Value);
+                }
+            }
+
+            // Si no se seleccionó ninguna fila o no se encontró el IDPasaje, puedes manejarlo como desees
+            // Por ejemplo, puedes mostrar un mensaje de error o devolver un valor predeterminado.
+            return -1;
         }
     }
 }
